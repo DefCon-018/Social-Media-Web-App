@@ -27,3 +27,5 @@ async function showAllPosts(query){
 // }
 // task();
 
+module.exports = {createAllPosts, showAllPosts}
+

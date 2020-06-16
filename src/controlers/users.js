@@ -8,6 +8,12 @@ async function createAnonUser(){
     })
     return user.dataValues;
 }
+async function getUserById(id){
+    return await Users.findOne({where: {id}})
+}
+async function getUserByUsername(username){
+    return await Users.findOne({where: {username}})
+}
 
 // async function task(){
 //     console.log(await createAnonUser());
@@ -16,4 +22,4 @@ async function createAnonUser(){
 // }
 // task();
 
-module.exports = {createAnonUser}
+module.exports = {createAnonUser, getUserById, getUserByUsername}
