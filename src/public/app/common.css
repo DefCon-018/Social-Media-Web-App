@@ -5,7 +5,11 @@
     position: sticky;
     bottom: 0px;
 }
-
+#navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
 #content{
     height: 2000px;
 }
