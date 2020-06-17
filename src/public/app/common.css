@@ -1,0 +1,11 @@
+#footer{
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    background-color: var(--light);
+    position: sticky;
+    bottom: 0px;
+}
+
+#content{
+    height: 2000px;
+}
