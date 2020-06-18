@@ -2,7 +2,7 @@
 $(()=>{
     $('#navbar').load('../component/navbar.html', loginIfNeeded);
     $('#footer').load('../component/footer.html')
-    $('#content').load('../component/all-article.html');
+    $('#content').load('../component/all-article.html')
 })
 
 function loginIfNeeded(){
