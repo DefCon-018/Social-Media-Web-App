@@ -1,6 +1,7 @@
 function loadPosts(){
     $.get('/api/posts', (posts)=>{
         for(p of posts){
+          console.log(p.user.username)
             $('#posts-container').append(`
             <div class= "col-4">
               <div class="card m-2">
